@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Invoicing</title>
+</head>
+
+<body>
+    <div class="contacts invoices">
+    <div class="row">
+      <div class="col-lg-1 logo">
+      	<img  src="img/robo-tax-logo.png">
+      </div>
+      <div class="col-lg-11">
+      	<div class="header">
+      	<div class="burger-menu">
+    <div class="icon"><span class="fas fa-bars"></span></div>
+    <div class="items">
+      <div>
+       <ul>
+             <li class="active"><a href="#">Dashboard</a></li>
+            <li><a href="#">Transaction</a></li>
+            <li><a href="#">Invoicing</a></li>
+            <li><a href="#">Estimate</a></li>
+            <li><a href="#">Expenses</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Notification</a></li>
+            <li><a href="#">Settings</a></li>
+         </ul>
+    </div>
+  </div>
+    </div>
+      	  <div class="links">
+            
+          <ul>
+             <a href="#">
+            <li>
+              <img src="img/dashboard.png">
+              <p>Dashboard</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/museum.png">
+              <p>Transactions</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/receipt-active.png">
+              <p class="active">Invoicing</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/budget.png">
+              <p>Estimates</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/analysis.png">
+              <p>Expenses</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/card active.png"> 
+              <p>Contacts</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/report.png">
+              <p>Report</p>
+            </li>
+            </a>
+          </ul>
+          </div>
+          <div class="links-2">
+            <ul>
+              <li class="buzz">
+                <img src="img/Mask Group 3.png">
+                <select>
+                  <option>Buzz</option>
+                </select>
+              </li>
+              <a href="#">
+            <li>
+              <img src="img/notification.png">
+              <p>Notifications</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/settings.png"> 
+              <p>Settings</p>
+            </li>
+            </a>
+            </ul>
+          </div>
+      	</div>
+      	<div class="panel">
+      		<div class="links">
+      			<ul><a href="">
+      			    <div class="buttons active">
+      				   <li>Invoices</li>
+      			  	</div>
+               </a>
+      				 <a href="">
+      				  <div class="buttons">
+      				   <li>Recurring</li>
+      				  </div>
+               </a>
+      				<a href="">
+      				 <div class="buttons">
+      				  <li>Other Income</li>
+      		 	 	</div>
+      				</a>
+      			</ul>
+
+      		</div>
+      		<div class="search-buttons" style="">
+      		<div class="search" style="">
+      		<span><i style="" class="fas fa-search"></i></span>
+      		<span>
+      			<input style="" type="text" name="" placeholder="Search"></span>
+      		</div>
+      		<div class="btn">
+             <a href=""><button>New</button></a>
+      		</div>
+      		</div>
+      	</div>
+      	<div class="table table-responsive">
+      		<table class="">
+            <tr>
+              <td colspan="7" style="padding: 0px;">
+                
+          <div class="filters">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="date">
+                  <div class="heading">Invoice Date</div>
+                  <div class="dates">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="from-date">
+                          <input type="text" name="" style="width: 80%">
+                          <a href="" ><i class="far fa-calendar-alt"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="from-date">
+                          <input type="text" name="" style="width: 80%">
+                          <a href=""><i class="far fa-calendar-alt"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="status">
+                <div class="heading">
+                   Status
+                </div>
+                <div class="checks">
+                  <ul>
+                    <li><label class="container-check">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                           <span class="title"> Draft </span>
+                          </label>
+                    </li>
+                    <li><label class="container-check">
+                            <input type="checkbox">
+                            <span class="checkmark check-2"></span>
+                           <span class="title-2"> Sent </span>
+                          </label>
+                    </li>
+                    <li><label class="container-check">
+                            <input type="checkbox">
+                            <span class="checkmark check-3"></span>
+                           <span class="title-3"> Viewed </span>
+                          </label>
+                    </li>
+                   <li><label class="container-check">
+                            <input type="checkbox">
+                            <span class="checkmark check-4"></span>
+                           <span class="title-4"> Unpaid </span>
+                          </label>
+                    </li>
+                    <li><label class="container-check">
+                            <input type="checkbox">
+                            <span class="checkmark check-5"></span>
+                           <span class="title-5"> Paid </span>
+                          </label>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+              </td>
+            </tr>
+      			<tr>
+      				<th>Status</th>
+      				<th>Invoice No</th>
+      				<th width="450px;">Company</th>
+                    <th>Date</th>
+                    <th>Due Date</th>
+              <th width="150px;" colspan="2">Amount</th>
+      			</tr>
+      			<tr>
+      				<td><button class="unpaid">Unpaid</button></td>
+      				<td>01</td>
+      				<td>Buzzinteractive</td>
+      				<td>6.9.19</td>
+              <td>20.9.19</td>
+      				<td>
+      					<p>30,000.150</p>
+      				</td>
+              <td><div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="">Open</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Achieve</a>
+                          <div class="dropdown-item payment-button" href="#" style="color: #097BEF; font-size: 11px;">Enter Payment</div>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Sent</a>
+                          <a class="dropdown-item" href="#" style="">Print</a>
+                          <a class="dropdown-item" href="#" style="">View PDF</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Copy</a>
+                          <a class="dropdown-item" href="#" style="">Edit</a>
+                          <div class="myBtn" class="dropdown-item"  style="">Delete</div>
+                         </div>
+                         </div>
+              </td>
+      			</tr>
+      			<tr>
+      				<td><button class="paid">Paid</button></td>
+      				<td>05</td>
+      				<td>Buzzinteractive</td>
+      				<td>6.9.19</td>
+              <td>20.9.19</td>
+      				<td>
+      					<p>30,000.150</p>
+      				</td>
+              <td><div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="contact view.html">Open</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Achieve</a>
+                          <div class="dropdown-item payment-button" href="#" style="color: #097BEF; font-size: 11px;">Enter Payment</div>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Sent</a>
+                          <a class="dropdown-item" href="#" style="">Print</a>
+                          <a class="dropdown-item" href="#" style="">View PDF</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Copy</a>
+                          <a class="dropdown-item" href="#" style="">Edit</a>
+                          <div class="myBtn" class="dropdown-item"  style="">Delete</div>
+                         </div>
+                         </div>
+              </td>
+      			</tr>
+      			<tr>
+      				<td><button class="draft">Draft</button></td>
+      				<td>02</td>
+      				<td>Buzzinteractive</td>
+      				<td>6.9.19</td>
+              <td>20.9.19</td>
+      				<td>
+      					<p>30,000.150</p>
+      				</td>
+              <td><div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="contact view.html">Open</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Achieve</a>
+                          <div class="dropdown-item payment-button" href="#" style="color: #097BEF; font-size: 11px;">Enter Payment</div>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Sent</a>
+                          <a class="dropdown-item" href="#" style="">Print</a>
+                          <a class="dropdown-item" href="#" style="">View PDF</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Copy</a>
+                          <a class="dropdown-item" href="#" style="">Edit</a>
+                          <div class="myBtn" class="dropdown-item"  style="">Delete</div>
+                         </div>
+                         </div>
+              </td>
+      			</tr>
+            <tr>
+              <td><button class="sent">Sent</button></td>
+              <td>03</td>
+              <td>Buzzinteractive</td>
+              <td>6.9.19</td>
+              <td>20.9.19</td>
+              <td>
+                <p>30,000.150</p> 
+              </td>
+              <td><div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="contact view.html">Open</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Achieve</a>
+                          <div class="dropdown-item payment-button" href="#" style="color: #097BEF; font-size: 11px;">Enter Payment</div>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Sent</a>
+                          <a class="dropdown-item" href="#" style="">Print</a>
+                          <a class="dropdown-item" href="#" style="">View PDF</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Copy</a>
+                          <a class="dropdown-item" href="#" style="">Edit</a>
+                          <div class="myBtn" class="dropdown-item"  style="">Delete</div>
+                        </div>
+                         </div>
+              </td>
+            </tr>
+            <tr>
+              <td><button class="viewed">Viewed</button></td>
+              <td>04</td>
+              <td>Buzzinteractive</td>
+              <td>6.9.19</td>
+              <td>20.9.19</td>
+              <td>
+                <p>30,000.150</p>
+              </td>
+              <td><div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="contact view.html">Open</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Achieve</a>
+                          <div class="dropdown-item payment-button" href="#" style="color: #097BEF; font-size: 11px;">Enter Payment</div>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Sent</a>
+                          <a class="dropdown-item" href="#" style="">Print</a>
+                          <a class="dropdown-item" href="#" style="">View PDF</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Copy</a>
+                          <a class="dropdown-item" href="#" style="">Edit</a>
+                          <div class="myBtn" class="dropdown-item"  style="">Delete</div>
+                        </div>
+                         </div>
+              </td>
+            </tr>
+      		</table>
+      	</div>
+        <div class="delete-model">
+
+         <!-- The Modal -->
+         <div id="myModal" class="modal">
+
+           <!-- Modal content -->
+           <div class="modal-content">
+             <div class="modal-header">
+               <h2>Delete Invoice</h2>
+             </div>
+             <div class="modal-body">
+              <div class="img">
+                <img src="img/Group 262.png">
+              </div>
+              <div class="warn">
+                <button>
+                  Warning
+                </button>
+                <p>If you have sent invoice no. 1 to a customer or reported it to the tax authorities, it may be unlawful to remove
+                it from your accounts.</p>
+              </div>
+              <div class="create">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <p>
+                      Cancel out the amount you have previously invoiced your customer by creating a new credit note.
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="btns"><a href="">
+                      <button>Cancel</button></a><a href="">
+                      <button>New Credit Note</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="delete">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <label class="container-check">
+                            <input type="checkbox" class="myCheckbox">
+                            <span class="checkmark"></span>
+                           <span class="title"> I understand the above but I still want to delete this invoice permanently </span>
+                    </label>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="btn">
+                      <a href="">
+                      <button class="checkdelete">Delete</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+           </div>
+
+            </div>
+            </div>
+          <div class="payment-modal">
+
+         <!-- The Modal -->
+         <div id="myModal" class="modal">
+
+           <!-- Modal content -->
+           <div class="modal-content">
+             <div class="modal-header">
+               <h2>Payment for Invoice no. 1</h2>
+             </div>
+             <div class="modal-body">
+                <div class="banks">
+                  <div class="cards active">
+                    <img src="img/museum (3).png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <img src="img/museum.png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <img src="img/museum.png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <img src="img/museum.png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <a href=""><p><i class="fas fa-plus"></i></p>
+                    <p>ADD NEW</p></a>
+                  </div>
+                </div>
+                <div class="payment-info">
+                  <h5>Add information about a payment made for this invoice:</h5>
+                  <div class="form">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-12" style="margin-bottom: 10px;">
+                        <label>Payment Notes</label><br>
+                        <input type="text" name="" placeholder="Enter a description for this payment">
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <label>Date</label>
+                        <div class="date">
+                          <input type="text" name="" style="width: 80%">
+                          <a href=""><i class="far fa-calendar-alt"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <label>Amount</label>
+                        <div class="amount">
+                          <input type="text" name="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <div class="modal-footer">
+               <div class="btns">
+               <button class="btn-1 close">Cancel</button>
+               <a href="">
+               <button class="btn-2">Save</button>
+               </a>
+               </div>
+             </div>
+           </div>
+
+            </div>
+           </div>
+      </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+// Get the modal
+$( ".myBtn" ).click(function() {
+  $( ".delete-model .modal" ).show();
+});
+$( ".payment-button" ).click(function() {
+  $( ".payment-modal .modal" ).show();
+});
+$( "..payment-modal .modal .close" ).click(function() {
+  $( ".payment-modal .modal" ).hide();
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.header .burger-menu .icon').on('click', function(){
+    $('.header .burger-menu .items').slideToggle(100);
+    });
+  });
+   $("input[class='myCheckbox']").click(function(){
+  if($("input:checkbox:checked").length > 0){
+    
+   $(".checkdelete").addClass('active');
+  }
+  else{
+   $(".checkdelete").removeClass('active');
+  }
+});
+</script>
+</body>
+
+</html>

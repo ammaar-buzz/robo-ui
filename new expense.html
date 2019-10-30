@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>New Expense</title>
+</head>
+
+<body style="background: #FAFAFA;">
+    <div class="contacts invoices contact-view new-invoice new-expense">
+    <div class="row">
+      <div class="col-lg-1 logo">
+      	<img  src="img/robo-tax-logo.png">
+      </div>
+      <div class="col-lg-11">
+      	<div class="header">
+      	<div class="burger-menu">
+    <div class="icon"><span class="fas fa-bars"></span></div>
+    <div class="items">
+      <div>
+       <ul>
+             <li class="active"><a href="#">Dashboard</a></li>
+            <li><a href="#">Transaction</a></li>
+            <li><a href="#">Invoicing</a></li>
+            <li><a href="#">Estimate</a></li>
+            <li><a href="#">Expenses</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Notification</a></li>
+            <li><a href="#">Settings</a></li>
+         </ul>
+    </div>
+  </div>
+    </div>
+      	  <div class="links">
+            
+          <ul>
+             <a href="#">
+            <li>
+              <img src="img/dashboard.png">
+              <p>Dashboard</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/museum.png">
+              <p>Transactions</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/receipt.png">
+              <p>Invoicing</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/budget.png">
+              <p>Estimates</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/analysis active.png">
+              <p class="active">Expenses</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/card active.png"> 
+              <p>Contacts</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/report.png">
+              <p>Report</p>
+            </li>
+            </a>
+          </ul>
+          </div>
+          <div class="links-2">
+            <ul>
+              <li class="buzz">
+                <img src="img/Mask Group 3.png">
+                <select>
+                  <option>Buzz</option>
+                </select>
+              </li>
+              <a href="#">
+            <li>
+              <img src="img/notification.png">
+              <p>Notifications</p>
+            </li>
+            </a>
+            <a href="#">
+            <li>
+              <img src="img/settings.png"> 
+              <p>Settings</p>
+            </li>
+            </a>
+            </ul>
+          </div>
+      	</div>
+      	<div class="panel">
+          <div class="row">
+            <div class="col-lg-6 col-md-4 col-sm-12">
+             <div class="name">
+               <h1><a href="">
+                 <i class="fas fa-angle-left"></i> Invoices
+               </a></h1>
+             </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12">
+              <div class="btns">
+                <a href=""><button class="btn-1">Delete</button></a>
+                <a href=""><button class="btn-2">Enter Payment</button></a>
+                <a href=""><button class="btn-3">Save</button></a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="customer-info">
+        <div class="row">
+          <div class="col-lg-6">
+            <form>
+              <div class="form-row">
+                <div class="col-lg-6 col-md-6">
+                  <label>Payee</label>
+                <select>
+                  <option>Who did you pay?</option>
+                  <option><a href="">Add New</a></option>
+                </select>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <label>Payment Date</label>
+                  <div class="from-date">
+                          <input type="text" name="" style="width: 80%">
+                          <a href="" style="float: right;"><i class="far fa-calendar-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="add-notes">
+                <label>Add Notes</label>
+              <textarea></textarea>
+               </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <div class="form-row">
+                <div class="col-lg-12">
+                  <div class="attachment">
+                  	<a href=""><i class="fas fa-paperclip"></i>Attachment</a>
+                  	<span>Maximum size: 25MB</span>
+                  	<div class="img-box">
+                  		<img src="img/Mask Group 4.png">
+                  	</div>
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="table table-responsive">
+        <table>
+         <thead>
+          <tr>
+            <th width="50px">#</th>
+            <th >Catagory</th>
+            <th>Description</th>
+            <th width="50px">Quantity</th>
+            <th width="100px">Discount</th>
+            <th width="100px">Unit</th>
+            <th width="100px">Rate</th>
+            <th width="100px">Tax</th>
+            <th style="border-right: none;" width="100px">Amount</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr class="active">
+            <td>1</td>
+            <td><select>
+                  <option>Seo</option>
+                </select></td>
+            <td><input type="text" name="" placeholder="What did you pay for?"></td>
+            <td><input type="text" name="" placeholder="1"></td>
+            <td><input type="text" name="" placeholder="0.00"></td>
+            <td><select style="border: none;">
+                  <option>Each</option>
+                </select></td>
+            <td><input type="text" name="" placeholder="500"></td>
+            <td><select style="border: none;">
+                  <option>17%</option>
+                </select></td>
+            <td style="border-right: none;"><input type="text" name="" placeholder="500"></td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="border-right: none;"></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="total">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>500.00</td>
+          </tr>
+          <tr>
+            <td>Discount</td>
+            <td>0.00%</td>
+          </tr>
+          <tr>
+            <td>GST 17 % of 500.00</td>
+            <td>85.00</td>
+          </tr>
+          <tr>
+            <td>Total PKR</td>
+            <td>585.00</td>
+          </tr>
+        </table>
+      </div>
+      <div class="expense-pay">
+        <div class="bank-option">
+        <div class="banks">
+                  <div class="cards active">
+                    <img src="img/museum (3).png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <img src="img/museum.png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <img src="img/museum.png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <img src="img/museum.png">
+                    <h6>UBL</h6>
+                    <p>USD 6000</p>
+                  </div>
+                  <div class="cards">
+                    <a href=""><p><i class="fas fa-plus"></i></p>
+                    <p>ADD NEW</p></a>
+                  </div>
+                </div>
+                <div class="payment-info">
+                  <h5>Add information about a payment made for this invoice:</h5>
+                  <div class="form">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-12">
+                        <label>Payment Notes</label><br>
+                        <input type="text" name="" placeholder="Enter a description for this payment" style="margin-bottom: 10px;">
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <label>Date</label>
+                        <div class="date">
+                          <input type="text" name="" style="width: 80%">
+                          <a href=""><i class="far fa-calendar-alt"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                        <label>Amount</label>
+                        <div class="amount">
+                          <input type="text" name="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="btns">
+               <button class="btn-1">Cancel</button>
+               <a href="">
+               <button class="btn-2">Save</button>
+               </a>
+               </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.header .burger-menu .icon').on('click', function(){
+    $('.header .burger-menu .items').slideToggle(100);
+    });
+  });
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+
+</html>

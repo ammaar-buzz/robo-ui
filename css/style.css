@@ -1,0 +1,2140 @@
+
+* {outline: none;}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 16px;
+   color: #666;
+  font-family: "Roboto" sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,ul {
+  margin: 0;
+  padding: 0;
+}
+img {max-width: 100%;}
+.login{
+  padding: 25px;
+}
+.login .bg-img-1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.login .bg-img-2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.login .header{
+  padding-bottom: 20px;
+}
+.login .sign-up .links {
+  padding: 15px 0px;
+
+}
+.login .sign-up .links span {
+  padding : 5px;
+  color: #000000;
+  font-size: 12px;
+}
+
+.login .sign-up .links span a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+.login .sign-up .links span a:hover{
+  color: #E41D40;
+  text-decoration: underline;  
+}
+.login .sign-up .links span .active{
+  color: #E41D40;
+  text-decoration: underline;
+}
+.login .sign-up .form h1{
+  color: #000;
+  margin: 10px 0px;
+  margin-bottom: 40px;
+}
+.login .sign-up .form h6 {
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.login .sign-up .form .form-group{
+  border-bottom: solid 1px #707070;
+  padding-bottom: 5px;
+}
+.login .sign-up .form span i,input{
+  color: #949494;
+}
+.login .sign-up .form input{
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+}
+.login .sign-up button{
+  width: 100%;
+  padding: 12px 0px;
+  background-color: #097BEF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.login .signin-link{
+  text-align: center;
+  margin-top: 20px;
+}
+.login .signin-link span {
+  padding : 5px;
+  color: #000000;
+  font-size: 16px;
+}
+.login .signin-link span a{
+  text-decoration: none;
+  color: #E41D40;
+  font-size: 16px;
+  text-decoration: underline;
+}
+@media (max-width: 769px){
+  .login .bg-img-1{
+    display: none;
+  }
+  .login .bg-img-2{
+    display: none;
+  }
+  .login .header .logo{
+    width: 100px;
+    margin: auto;
+  }
+  .login .img{
+  width: 540px;
+  margin: auto;
+  }
+}
+@media (max-width: 500px) {
+  .login .img{
+    width: 50%;
+  }
+  .login .sign-up .form h1{
+    font-size: 24px;
+  }
+}
+.onboard-1{
+  padding: 40px 25px;
+}
+.onboard-1 .bg-img-1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.onboard-1 .bg-img-2{
+  position: absolute;
+  bottom: -1;
+  left: 0;
+  z-index: -1;
+}
+.onboard-1 .bg-img-3{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.onboard-2 .bg-img-3{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.onboard-1 .company-details{
+  padding: 0px 20px;
+}
+.onboard-1 .company-details h1{
+  color: #000000;
+  font-size: 26px;
+
+}
+.onboard-1 .company-details .input-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: solid 2px #E5E5E5;
+  margin-top: 30px;
+  text-align: center;
+}
+.onboard-1 .company-details .input-logo p{
+  margin-top: 40px;
+  color: #999999;
+}
+.onboard-1 .company-details form .form-group label{
+  color: #000000;
+  margin: 10px 0px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.onboard-1 .company-details form .form-group .form-check{
+  margin-top: 20px;
+}.onboard-1 .company-details form .form-group input{
+  height: 40px;
+}
+.onboard-1 .company-details form .form-check input{
+  height: auto;
+}
+.onboard-1 .company-details form .form-check input[type="checkbox"]{
+  width: 30px;
+  height: 30px;
+}
+.onboard-1 .company-details form .form-check  label{
+  margin-left: 20px;
+  color: #999999;
+  padding-top: 7px;
+}
+/* The container */
+ .container-check {
+  display: block;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #999999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+ .container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+ .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border: solid 1px #E5E5E5;
+  border-radius: 5px;
+}
+
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+ .container-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+ .container-check .checkmark:after {
+  left: 12px;
+  top: 8px;
+  width: 5px;
+  height: 10px;
+  border: solid #000;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.onboard-1 .company-type{
+  padding-right: 30px;
+}
+.onboard-1 .company-type h1{
+  margin-bottom: 20px;
+}
+.onboard-1 .company-type .form-group p{
+  margin: 10px 0px;
+  color: #000000;
+}
+
+.onboard-1 .company-type .form-group select option{
+  box-shadow: 3px #888888;
+}
+.onboard-1 .button{
+  float: right;
+}
+.onboard-1 .button button{
+  width: 150px;
+  height: 40px;
+  background-color: #097BEF;
+  color: #FAFAFA;
+  border: none;
+  border-radius: 5px;
+}
+@media (max-width: 769px){
+  .onboard-1 .bg-img-1{
+    display: none;
+  }
+  .onboard-1 .bg-img-2{
+    display: none;
+  }
+  .onboard-1 .button{
+  float: none;
+}
+.onboard-1 .company-type{
+  padding-right: 0px;
+}
+.onboard-1 .company-details{
+  padding: 0px;
+  margin-bottom: 50px;
+}
+.onboard-1 .bg-img-3{
+  right: 0;
+  height: 70%;
+}
+.onboard-2 .bg-img-3{
+  right: 0;
+  height: 50%;
+}
+}
+.onboard-2{
+  padding: 25px;
+}
+.onboard-2 .bg-img-1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.onboard-2 .bg-img-2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.onboard-2 .contact-info h1
+{
+  color: #000000;
+  font-size: 24px;
+}
+
+.onboard-2 .contact-info form .form-group label
+{
+    color: #000000;
+    margin: 10px 0px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.onboard-2 .contact-info form .form-group input
+{
+  height: 40px;
+}
+.onboard-2 .contact-info form .form-check label
+{
+  font-size: 12px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+padding-top: 5px;
+  color: #999999;
+}
+.onboard-2 .contact-info form .form-check input[type="checkbox"]
+{
+  height: 30px;
+  width:30px;
+}
+
+.onboard-2 .contact-info form .form-check input
+{
+  height:auto;
+}
+.onboard-2  .btn p
+{
+   color: #999999; 
+
+}
+.onboard-2  .btn{
+  float: left;
+  margin-left: 5px;
+}
+.onboard-2  .btn-2{
+  float: right;
+  margin-top: 5px;
+}
+.onboard-2 .btn  button
+{
+  background-color: #FAFAFA;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 2px #DCDCDC; 
+}
+.onboard-2  .btn-2 p
+{
+   color: #FAFAFA; 
+
+}
+.onboard-2 .btn-2  button
+{
+  background-color: #097BEF;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px #DCDCDC; 
+}
+/* The container */
+.onboard-2 .contact-info form .form-check .container-check {
+  display: block;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #999999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.onboard-2 .contact-info form .form-check .container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.onboard-2 .contact-info form .form-check .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border: solid 1px #E5E5E5;
+  border-radius: 5px;
+}
+
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.onboard-2 .contact-info form .form-check .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.onboard-2 .contact-info form .form-check .container-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.onboard-2 .contact-info form .form-check .container-check .checkmark:after {
+  left: 12px;
+  top: 8px;
+  width: 5px;
+  height: 10px;
+  border: solid #000;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.onboard-2 .contact-info{
+  padding: 20px;
+}
+.onboard-2 .contact-info form .phone select{
+  border-radius: 0px;
+}
+.onboard-2 .contact-info form .phone input{
+  border-radius: 0px;
+}
+@media (max-width: 769px){
+  .onboard-2 .bg-img-1{
+    display: none;
+  }
+  .onboard-2 .bg-img-2{
+    display: none;
+  }
+.onboard-2 .contact-info{
+  padding: 0px;
+}
+.onboard-2 .contact-info{
+  padding: 0px;
+  margin-bottom: 50px;
+}
+}
+@media (max-width: 500px){ 
+  .onboard-2 .btn{
+  float: none;
+  margin-bottom: 10px;
+}
+.onboard-2 .btn-2{
+  float: none;
+  margin-left: 15px;
+}
+}
+.onboard-3{
+  padding: 75px 25px;
+}
+.onboard-3 .contact-info .search{
+  border: none;
+}
+.onboard-3 .search h6 {
+  color: #000;
+  margin: 10px 0px;
+  font-size: 16px;
+}
+.onboard-3 .search{
+  padding-bottom: 5px;
+}
+.onboard-3 .search span i,input{
+  color: #949494;
+}
+.onboard-3 .search input{
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+}
+.onboard-3 .search button{
+  width: 100px;
+  padding: 12px 0px;
+  background-color: #097BEF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.onboard-3 .manual h6{
+  color: #000;
+  margin: 10px 0px;
+  font-size: 16px;
+  padding: 10px 0px;
+  padding-top: 80px;
+}
+.onboard-3 .manual input{
+  margin-top: 10px;
+}
+.onboard-3 .image-mobile{
+  display: none;
+}
+@media (max-width: 769px){
+  .onboard-3 .contact-info .image{
+    display: none;
+  }
+  .onboard-3 .image-mobile{
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+}
+.onboard-1 a .btn-2
+{
+  background-color: #FAFAFA;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 2px #DCDCDC; 
+  color: #999999;
+  float: none;
+}
+.onboard-1 a{
+}
+.onboard-2 a .btn-2
+{
+  background-color: #FAFAFA;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 2px #DCDCDC; 
+  color: #999999;
+  float: none;
+}
+.onboard-1 .input-logo .add-logo{
+ float: right;
+}
+.onboard-1 .input-logo .add-logo a i{
+  color: #1592E6;
+  font-size: 12px;
+}
+.onboard-1 .input-logo .add-logo a button{
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding: 0px;
+  margin-top: 20px;
+  border: none;
+  background-color: #F6F6F6;
+  }
+.onboard-1 .input-logo .add-logo a{
+  text-decoration: none;
+  text-align: center;
+}
+.contacts{
+  padding: 0px 50px;
+  padding-top: 50px;
+  background-color: #FAFAFA;
+}
+.contacts .header{
+  border-bottom: solid 1px #EBEBEB;
+  padding: 20px 0px;
+  height: 90px;
+}
+.contacts .header .links ul li{
+ list-style-type: none;
+ padding: 0px 10px;
+ margin: 0px 5px;
+ font-size: 14px;
+ font-weight: 500;
+ float: left;
+}
+.contacts .header .links{
+  float: left;
+}
+.contacts .header .nav{
+ text-align: center;
+ display: none;
+ font-size: 36px;
+}
+.contacts .header .links a{
+ display: block;
+ text-align: center;
+ float: left;
+}
+.contacts .header .links-2 a{
+ display: block;
+ text-align: center;
+ float: left;
+}
+.contacts .header .links ul li .img{
+ width: 19px;
+ margin: auto;
+}
+.contacts .header .links ul li img{
+  margin-bottom: 10px;
+}
+.contacts .header .links ul li .active{
+  color: #000000;
+}
+.contacts .header .links ul li p{
+ color: #7D7D7D;
+
+}
+.contacts .header .links-2{
+  float: right;
+}
+.contacts .header .links-2 ul li .img{
+ width: 19px;
+ margin: auto;
+}
+.contacts .header .links-2 ul li img{
+  margin-bottom: 10px;
+}
+.contacts .header .links-2 ul li .active{
+  color: #000000;
+}
+.contacts .header .links-2 ul li a{
+  text-decoration: none;
+}
+.contacts .header .links-2 ul li p{
+ color: #7D7D7D;
+
+}
+.contacts .header .links-2 ul li{
+ list-style-type: none;
+ padding: 0px 10px;
+ margin: 0px 5px;
+ font-size: 14px;
+ font-weight: 500;
+ float: left;
+}
+.contacts .header .links-2 .buzz img{
+  float: left;
+}
+.contacts .header .links-2 .buzz select{
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: #FAFAFA;
+}
+.contacts .panel{
+ padding: 20px 0px;
+ height: 70px;
+}
+.contacts .panel .links{
+  float: left;
+}
+.contacts .panel ul .buttons{
+  width: 110px;
+  height: 43px;
+  padding: 10px 0px;
+  float: left;
+  margin: 0px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.contacts .panel ul  .active{
+  background-color: #EBF2F9;
+}
+.contacts .panel ul .buttons:hover{
+  background-color: #EBF2F9;
+  color: #000;
+}
+.contacts .panel ul  a .active{
+color: #000000;
+}
+.contacts .panel ul  a{
+  color: #7D7D7D;
+}
+.contacts .panel ul li{
+  list-style-type: none;
+}
+.contacts .panel .search-buttons .search{
+  padding-bottom: 5px;
+  border: solid 2px #e7e7e7;
+  border-radius: 5px;
+  padding: 0px 10px;
+  float: left;
+  margin-right: 10px;
+  background-color: #fff;
+  margin-top: 15px;
+}
+.contacts .panel .search-buttons{
+  float: right;
+}
+.contacts .panel .search-buttons .search input{
+  width: 90%;
+  float: right;
+  border: none;
+  padding: 5px;
+}
+.contacts .panel .search-buttons .search i{
+  cursor: pointer;
+  margin-top: 8px;
+}
+.contacts .panel .btn button{
+width: 100px;
+height: 50px;
+color: #fff;
+background-color: #097BEF;
+font-weight: 500;
+border: none;
+}
+.contacts .table{
+  padding: 50px 0px;
+}
+.contacts .table table{
+  width: 100%;
+}
+.contacts .table table th,td{
+  padding: 20px;
+  border: none;
+}
+.contacts .table table th{
+  background-color: #EBF2F9;
+  font-size: 14px;
+  font-weight: 400;
+}
+.contacts .table table td{
+ color: #000;
+ border-bottom: solid 2px #EFEFEF;
+}
+.contacts .table table td p{
+ float: left;
+ margin-right: 5px;
+}
+.contacts .table table td .dropdown{
+ float: right;
+}
+.contacts .table table td .dropdown .btn{
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 0px;
+ background-color: #fff;
+ border: solid 1px #777777;
+ border-radius: 7px;
+}
+@media(max-width: 769px){
+  .contacts .logo{
+    text-align: center;
+  }
+  
+  .contacts .panel .links{
+      float: none;
+      width: 100%;
+      height: 60px;
+  }
+    .contacts .panel .links ul{
+      height: 60px;
+      width: 400px;
+      margin: auto;
+    }
+  .contacts .panel{
+    height: auto;
+  }
+  .contacts .panel .search-buttons{
+  float: none;
+  width: 400px;
+  margin: auto;
+}
+}
+@media (max-width: 500px){
+  .contacts .header .links{
+    display: none;
+  }
+    .contacts .header .links-2{
+    display: none;
+  }
+  .contacts .panel .links{
+    float: none;
+  }
+  .contacts .panel .links ul{
+    width: auto;
+  }
+  .contacts .panel .search-buttons{
+    width: auto;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .contacts .panel ul .buttons{
+    float: none;
+    margin-bottom: 10px;
+  }
+  .contacts .panel .search-buttons .search{
+    margin-bottom: 20px;
+  }
+  .contacts .header .nav{
+    display: block;
+  }
+  .contact-view .panel .btns .btn-2,.btn-1{
+    margin-bottom: 10px;
+  }
+}
+.contact-view .panel{
+  height: auto;
+}
+.contact-view .panel .name h1{
+  margin-top: 15px;
+  font-size: 30px;
+}
+.contact-view .panel .btns{
+  margin-top: 7px;
+}
+.contact-view .panel .btns .btn-2,.btn-1
+{
+  background-color: #FAFAFA;
+  height: 50px;
+  border-radius: 5px;
+  border: solid 2px #DCDCDC; 
+  color: #999999;
+  margin-right: 10px;
+}
+.contact-view .panel .btns .btn-1{
+  width: 100px;
+}
+.contact-view .panel .btns .btn-2{
+  width: 160px;
+}
+.contact-view .panel .btns .btn-3{
+  height: 50px;
+  background-color: #097BEF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+}
+.contact-view .display-info{
+  padding: 50px 0px;
+}
+.contact-view .display-info .info{
+  padding: 20px;
+  border-radius: 5px;
+  border: solid 2px #EFEFEF;
+  height: 270px;
+}
+.contact-view .display-info .info .heading{
+  height: 60px;
+}
+.contact-view .display-info .info .heading h6{
+ float: left;
+}
+.contact-view .display-info .info .heading a{
+ float: right;
+ text-decoration: none;
+ color: #097BEF;
+}
+.contact-view .display-info .info .contact-info h1{
+ font-size: 20px;
+}
+.contact-view .display-info .info .contact-info i{
+ font-size: 14px;
+}
+.contact-view .display-info .info .contact-info .link a{
+
+ text-decoration: none;
+ color: #097BEF;
+}
+.contact-view .display-info .info .contact-info .link {
+ font-size: 14px;
+ margin-top: 15px;
+}
+.contact-view .display-info .notes{
+  padding: 20px;
+  border-radius: 5px;
+  border: solid 2px #EFEFEF;
+  height: 270px;
+}
+.contact-view .display-info .notes .heading{
+  height: 60px;
+}
+.contact-view .display-info .notes .add-notes textarea{
+  width: 100%;
+  border-radius: 5px;
+  border: solid 2px #EFEFEF;
+  height: 150px;
+  padding: 10px;
+  font-style: italic;
+  font-weight: 500;
+  color: #000;
+  font-size: 13px;
+  resize: none;
+}
+.contact-view .table .heading{
+  height: 60px;
+}
+.contact-view .table table{
+  height: 300px;
+  border: solid 2px #EFEFEF;
+
+}
+.contact-view .table table th{
+  height: 60px;
+}
+.contact-view .table table td {
+  border: none;
+  text-align: center;
+  padding-top: 80px;
+}
+@media(max-width: 769px){
+  .contact-view .display-info .info{
+    margin-bottom: 20px;
+  }
+  .contact-view .panel .btns .btn-1{
+  width: 100px;
+}
+.contact-view .panel .btns .btn-2{
+  width: 160px;
+}
+.contact-view .panel .btns .btn-3{
+  width: 160px;
+}
+
+}
+@media(max-width: 1025px){
+  .contacts .header .links ul li{
+    padding: 0px 10px;
+  }
+    .contacts .header .links{
+      float: none;
+    }
+    .contacts .header .links-2{
+      float: none;
+    }
+  .contacts .header{
+    height: 170px;
+  }
+  .contacts .header .links-2 ul li{
+    padding: 0px 10px;
+  }
+  .contacts .header .links-2 .buzz{
+    display: none;
+  }
+  .contact-view .panel .btns .btn-1{
+    width: 80px;
+
+  }
+  .contact-view .panel .btns .btn-2{
+    width: 140px;
+  }
+  .contact-view .panel .btns .btn-3{
+    width: 140px;
+  }
+
+}
+/* The Modal (background) */
+.contacts .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.contacts .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 837px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+.contacts .modal-header {
+  padding: 8px 16px;
+  background-color: #ECECEC;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+.contacts .modal-header h2{
+  font-size: 16px;
+  padding-left: 350px;
+}
+.contacts .modal-body {
+  padding: 10px 50px;
+}
+
+.contacts .modal-footer {
+  padding: 8px 16px;
+  background-color: #ECECEC;
+  color: black;
+  font-size: 16px;
+}
+.contacts .modal-body{
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contacts .modal-body textarea{
+  width: 100%;
+  border-radius: 5px;
+  border: solid 2px #EFEFEF;
+  height: 130px;
+  padding: 10px;
+  color: #000;
+  font-size: 13px;
+  resize: none;
+}
+.contacts .modal-body input{
+  border: solid 2px #EFEFEF;
+
+}
+.contacts .modal-footer .btns .btn-1{
+}
+.contacts .modal-footer .btns .btn-2{
+  height: 50px;
+  background-color: #097BEF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  cursor: pointer;
+}
+.contacts .modal-footer .btns .close{
+  background-color: #ECECEC;
+  height: 50px;
+  border-radius: 5px;
+  border: solid 2px #DCDCDC; 
+  color: #999999;
+  margin-right: 10px;
+  width: 120px;
+  font-weight: 400;
+  opacity: 1;
+  font-size: 16px;
+  float: none;
+}
+@media(max-width: 769px){
+  .contacts .modal-content{
+    margin-bottom: 20px;
+    width: 600px;
+  }
+  .contacts .modal-header h2{
+    padding-left: 230px;
+  }
+
+}
+@media(max-width: 500px){
+  .contacts .modal-content{
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  .contacts .modal-header h2{
+    padding-left: 80px;
+  }
+}
+.contacts .burger-menu{
+  display: none;
+overflow: hidden;
+}
+
+.contacts .burger-menu .icon{
+ cursor: pointer;
+ margin-top: 15px;
+ text-align: center;
+}
+.contacts .burger-menu .icon span{
+ color: #000;
+ font-size: 30px;
+ margin-top: 5px;
+ padding-right: 20px;
+}
+
+.contacts .burger-menu .items{
+display: none;
+  float: right;
+    z-index: 1000;
+position: absolute;
+right: 0;
+margin-right: 65px;
+border: solid 1px #e0e0e0;
+}
+
+.contacts .burger-menu .items li{
+  list-style-type: none;
+   background-color: #FAFAFA;
+ border-bottom: solid 1px #e0e0e0;
+
+}
+.contacts .burger-menu .items .active li a{
+ 
+}
+.contacts .burger-menu .items li a{
+  padding: 10px 30px;
+display: block;
+ text-decoration: none;
+ font-weight: 400;
+ font-size: 14px;
+ color: #666666; 
+
+}
+@media(max-width: 500px){
+
+  .contacts .burger-menu{
+    display: inherit;
+  }
+}
+.invoices{
+  padding-bottom: 30px;
+}
+.invoices .panel .search-buttons .btn a button{
+  cursor: pointer;
+  width: 50px;
+}
+.invoices .table .filters{
+  background-color: #EBF2F9;
+  padding: 20px;
+}
+.invoices .table .filters  .heading{
+  color: #666;
+  margin-bottom: 10px;
+}
+.invoices .table .filters .date .from-date{
+  border: solid 2px #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.invoices .table .filters .date .from-date input{
+  border: none;
+}
+.invoices .table .filters .date .from-date a{
+  color: #C0C0C0;
+}
+.invoices .table .filters .checks .checkmark{
+  float: left;
+  margin-top: 40px;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  left: 8px;
+}
+.invoices .table .filters .checks ul li{
+  list-style-type: none;
+  padding-top: 4px;
+  padding-left: 10px;
+  float: left;
+}
+.invoices .table .filters .checks .title{
+  margin-left: 25px;}
+ .invoices .container-check .checkmark:after {
+  left: 9px;
+  top: 6px;
+ }
+ .invoices .table .filters .checks .check-2{
+  left: 80px;
+ }
+ .invoices .table .filters .checks .title-2{
+  margin-left: 35px;
+}
+ .invoices .table .filters .checks .check-3{
+  left: 150px;
+ }
+ .invoices .table .filters .checks .title-3{
+  margin-left: 35px;
+}
+ .invoices .table .filters .checks .check-4{
+  left: 240px;
+ }
+ .invoices .table .filters .checks .title-4{
+  margin-left: 42px;
+}
+ .invoices .table .filters .checks .check-5{
+  left: 320px;
+ }
+ .invoices .table .filters .checks .title-5{
+  margin-left: 35px;
+}
+.invoices .table td{
+  padding-left: 20px;
+}
+ .invoices .table td button{
+  background-color: #fff;
+  border: none;
+  width: 60px;
+  height: 25px;
+  font-size: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+ }
+ .invoices .table td .unpaid{
+  color: #E41D40;
+  border: solid 1px #E41D40;
+ }
+  .invoices .table td .paid{
+  color: #FFB12B;
+  border: solid 1px #FFB12B;
+ }
+  .invoices .table td .draft{
+  color: #4BA141;
+  border: solid 1px #4BA141;
+ }
+  .invoices .table td .sent{
+  color: #097BEF;
+  border: solid 1px #097BEF;
+ }
+  .invoices .table td .viewed{
+  color: #000000;
+  border: solid 1px #000000;
+ }
+   .invoices .table .dropdown .dropdown-menu{
+    text-align: center;
+   }
+.invoices .table .dropdown .dropdown-menu a{
+  padding: 5px 0px;
+  font-size: 11px;
+}
+.new-invoice .panel .btns{
+  text-align: right;
+}
+.new-invoice .panel .btns .btn-1{
+  width: 100px;
+}
+.new-invoice .panel .btns .btn-2{
+  width: 100px;
+}
+.new-invoice .panel .btns .btn-3{
+  width: 180px;
+}
+.new-invoice .panel .name h1 a{
+  font-weight: 400;
+  font-size: 22px;
+  text-decoration: none;
+  color: #000;
+}
+.new-invoice .panel .name h1 a i{
+  margin-right: 10px;
+}
+.new-invoice .customer-info{
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.new-invoice .customer-info .form-row{
+  margin-bottom: 20px;
+}
+.new-invoice .customer-info .form-row label{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+.new-invoice .customer-info .form-row select{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #ECECEC;
+}
+.new-invoice .customer-info .form-row option{
+  color: #666;
+}
+.new-invoice .customer-info .form-row textarea{
+  height: 160px;
+  width: 100%;
+  resize: none;
+  border-radius: 5px;
+  border: solid 1px #ECECEC;
+}
+.new-invoice .customer-info .form-row .from-date{
+  border: solid 1px #ECECEC;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.new-invoice .customer-info .form-row .from-date input{
+  border: none;
+  height: 30px;
+}
+.new-invoice{
+  padding-bottom: 50px; 
+}
+.new-invoice .customer-info .form-row .from-date a{
+  color: #C0C0C0;
+}
+.new-invoice .customer-info .form-row input{
+ border: solid 1px #ECECEC; 
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+}
+.new-invoice .table table{
+  width: 100%;
+  height: auto;
+  border: none;
+  background-color: #fff;
+}
+
+.new-invoice .table table th{
+  border-right: solid 1px #ECECEC;
+  background-color: #ffffff;
+}
+.new-invoice .table table td{
+  border-right: solid 1px #ECECEC;
+  background-color: #ffffff;
+}
+.new-invoice .table table .active td{
+  border-right: none;
+  background-color: #ffffff;
+}
+.new-invoice .table table td{
+  padding: 10px;
+}
+.new-invoice .table table select{
+  width: 100%;
+  padding: 2px 10px;
+  border: solid 1px #ECECEC;
+  color: #666
+}
+.new-invoice .table table input{
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+.new-invoice .currency span{
+  margin-right: 10px;
+}
+.new-invoice .currency{
+  border-bottom: solid 2px #ECECEC;
+  padding-bottom: 40px;
+}
+.new-invoice .currency p{
+  font-size: 14px;
+}
+.new-invoice .currency select{
+  width: 20%;
+  padding: 5px 10px;
+  border: solid 1px #ECECEC;
+  border-radius: 5px;
+  color: #666;
+  background-color: #FAFAFA;
+  margin-top: 5px;
+}
+.new-invoice .total{
+  width: 100%;
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 270px;
+}
+.new-invoice .total table{
+  float: right;
+}
+.new-invoice .total table th,td{
+padding: 5px 20px;
+}
+  .invoices .table .filters .date .from-date a{
+    float: right;
+  }
+@media(max-width: 769px){
+  .invoices .table .filters .date .from-date{
+    margin-bottom: 10px;
+
+  }
+  .new-invoice .table table{
+    width: 1000px;
+  }
+}
+@media(max-width: 1025px){
+  .new-invoice .panel .btns .btn-3{
+    width: 160px;
+  }
+}
+@media(max-width: 500px){
+    .new-invoice .customer-info .from-date{
+      margin-bottom: 20px;
+    }
+    .new-invoice .customer-info select{
+      margin-bottom: 20px;
+    }
+    .new-invoice .panel .btns{
+      float: none;
+      text-align: left;
+    }
+    .new-invoice .currency select{
+      width: 130px;
+    }
+}
+.invoice-view{
+  padding-bottom: 50px;
+}
+.invoice-view .panel{
+  margin-bottom: 40px;
+}
+.invoice-view .panel .btns{
+  float: right;
+}
+.invoices .table table td .dropdown-item{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0px;
+}
+.invoices .table table td .dropdown-item button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+.invoices .table table td .dropdown-item:hover .btn{
+  background-color: #f8f9fa;
+}
+.invoices .table table td .dropdown-item:hover .btn button{
+  background-color: #f8f9fa;
+}
+.invoices .table table td .dropdown-item:focus .btn{
+  background-color: #097BEF;
+}
+.invoices .table table td .dropdown-item:focus .btn button{
+  background-color: #097BEF;
+}
+.invoices .delete-model .modal-content .modal-body .img{
+  width: 291px;
+  margin: auto;
+}
+.invoices .delete-model .modal-content .modal-body .warn{
+  border-bottom: solid 2px #E8E8E8;
+}
+.invoices .delete-model .modal-content .modal-body .warn button{
+  border: solid 1px #E41D40;
+  color: #E41D40;
+  height: 35px;
+  width: 95px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #fff;
+}
+.invoices .delete-model .modal-content .modal-body .warn p{
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 30px;
+  line-height: 20px;
+}
+.invoices .delete-model .modal-content .modal-body .create{
+  padding: 20px 0px;
+  border-bottom: solid 2px #E8E8E8;
+}
+.invoices .delete-model .modal-content .modal-body .create p{
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 20px;
+}
+.invoices .delete-model .modal-content .modal-body .create .btns button{
+  background-color: #fff;
+  border: solid 1px #E8E8E8;
+  border-radius: 5px;
+  margin-right: 8px;
+  font-size: 13px;
+  padding: 7px 16px;
+  color: #097BEF;
+}
+.invoices .delete-model .modal-content .modal-body .delete{
+ padding: 25px 0px;
+}
+.invoices .delete-model .modal-content .modal-body .delete .title{
+  margin-left: 25px;
+  font-size: 13px;
+  color: #212529;
+  font-weight: 400;
+
+}
+.invoices .delete-model .modal-content .modal-body .checkmark{
+  height: 25px;
+  width: 25px;
+  margin-top: 7px;
+}
+.invoices .delete-model .modal-content .modal-body .delete label{
+  margin-top: 10px;
+}
+.invoices .delete-model .modal-content .modal-body .delete .btn{
+  float: right;
+}
+.invoices .delete-model .modal-content .modal-body .delete .btn .active{
+  background-color: #fff;
+  border: solid 1px #E8E8E8;
+  color: #097BEF;
+}
+.invoices .delete-model .modal-content .modal-body .delete .btn button{
+  background-color: #fff;
+  border: solid 1px #E8E8E8;
+  border-radius: 5px;
+  margin-right: 8px;
+  font-size: 13px;
+  padding: 7px 16px;
+  color: #9DCAF9;
+}
+.invoices .delete-model .modal-content{
+  margin-bottom: 30px;
+}
+.invoices .dropdown .myBtn{
+  font-size: 11px;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+.invoices .panel{
+  height: 100px;
+}
+@media(max-width: 769px){
+  .invoices .delete-model .modal-content .modal-body .create p{
+    margin-bottom: 10px;
+  }
+}
+@media(max-width: 500px){
+  .invoices .delete-model .modal-content .modal-body .img{
+    width: auto;
+    margin-bottom: 10px;
+  }
+  .invoices .delete-model .modal-content .modal-body .create .btns button{
+    margin-bottom: 10px;
+  }
+  .invoices .delete-model .modal-content .modal-body .delete .title{
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .contacts .panel ul .buttons{
+    float: left;
+    width: 80px;
+    height: 35px;
+    font-size: 10px;
+  }
+  .contacts .panel{
+    height: 70px;
+  }
+  .contacts .panel .links{
+    width: 300px;
+    margin: auto;
+  }
+  .contacts .panel .search-buttons {
+    margin-top: 0px;
+  }
+  .contacts{
+    padding: 0px 20px;
+  }
+  .contacts .panel .search-buttons .search{
+    width: 190px;
+  }
+}
+.invoices .payment-modal .modal{
+  padding-top: 70px;
+}
+.invoices .payment-modal .modal-header h2 {
+  padding-left: 310px;
+}
+.invoices .payment-modal .modal-body .banks{
+  padding: 30px 20px;
+  height: 190px;
+}
+.invoices .payment-modal .modal-body .cards{
+  width: 120px;
+  display: block;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  border: solid 1px #EAEAEA;
+  border-radius: 5px;
+ margin-right:10px;
+ height: 100px;
+}
+.invoices .payment-modal .modal-body .cards h6{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.invoices .payment-modal .modal-body .cards p{
+  color: #7F7F7F;
+  font-size: 14px;
+  margin: 0px;
+}
+.invoices .payment-modal .modal-body .active{
+  background-color: #F7FBFF;
+  border: solid 1px #097BEF;
+}
+.invoices .payment-modal .modal-body .active h6{
+  color: #097BEF;
+}
+.invoices .payment-modal .modal-body .active p{
+  color: #097BEF;
+}
+.invoices .payment-modal .modal-body .cards p i{
+ margin-top: 20px;
+}
+.invoices .payment-modal .modal-body .payment-info{
+ padding: 20px 20px;
+ margin-bottom: 20px;
+}
+.invoices .payment-modal .modal-body .payment-info h5{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.invoices .payment-modal .modal-body .payment-info .form{
+  padding: 10px;
+  background-color: #ECECEC;
+  border: solid 1px #D4D4D4;
+}
+.invoices .payment-modal .modal-body .payment-info .form label{
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.invoices .payment-modal .modal-body .payment-info .form input{
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  border: solid 1px #CDCDCD;
+}
+.invoices .payment-modal .modal-body .payment-info .form .date{
+  border: solid 1px #CDCDCD;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+}
+.invoices .payment-modal .modal-body .payment-info .form .date input{
+  border: none;
+}
+.invoices .payment-modal .modal-body .payment-info .form .date a{
+  color: #C0C0C0;
+}
+.invoices .payment-modal .modal-body .payment-info .form .amount input{
+  color: #13B700;
+}
+.new-expense .panel .btns .btn-2{
+  width: 180px;
+}
+.new-expense .panel .btns .btn-3{
+  width: 100px;
+}
+.new-expense .customer-info .attachment{
+  padding: 0px 10px;
+}
+.new-expense .customer-info .attachment a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+} 
+.new-expense .customer-info .attachment a i{
+  color: #707070;
+  margin-right: 10px;
+}
+.new-expense .customer-info .attachment span{
+  font-size: 12px;
+  margin-left: 10px;
+}
+.new-expense .customer-info .form-row textarea{
+  height: 250px;
+  padding: 10px;
+}
+.new-expense .customer-info .add-notes{
+  margin-top: 50px;
+  width: 100%;
+}
+.new-expense .customer-info{
+}
+.new-expense .expense-pay .banks{
+  padding: 30px 20px;
+  height: 190px;
+}
+.new-expense .expense-pay .cards{
+  width: 120px;
+  display: block;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  border: solid 1px #EAEAEA;
+  border-radius: 5px;
+ margin-right:10px;
+ height: 100px;
+}
+.new-expense .expense-pay .cards h6{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.new-expense .expense-pay .cards p{
+  color: #7F7F7F;
+  font-size: 14px;
+  margin: 0px;
+}
+.new-expense .expense-pay .active{
+  background-color: #F7FBFF;
+  border: solid 1px #097BEF;
+}
+.new-expense .expense-pay .active h6{
+  color: #097BEF;
+}
+.new-expense .expense-pay .active p{
+  color: #097BEF;
+}
+.new-expense .expense-pay .cards p i{
+ margin-top: 20px;
+}
+.new-expense .expense-pay .payment-info{
+ padding: 20px 20px;
+ margin-bottom: 20px;
+}
+.new-expense .expense-pay .payment-info h5{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.new-expense .expense-pay .payment-info .form{
+  padding: 10px;
+  background-color: #ECECEC;
+  border: solid 1px #D4D4D4;
+}
+.new-expense .expense-pay .payment-info .form label{
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.new-expense .expense-pay .payment-info .form input{
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  border: solid 1px #CDCDCD;
+}
+.new-expense .expense-pay .payment-info .form .date{
+  border: solid 1px #CDCDCD;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+}
+.new-expense .expense-pay .payment-info .form .date input{
+  border: none;
+}
+.new-expense .expense-pay .payment-info .form .date a{
+  color: #C0C0C0;
+}
+.new-expense .expense-pay .payment-info .form .amount input{
+  color: #13B700;
+}
+.new-expense .expense-pay .bank-option{
+  padding: 20px;
+  background-color: #ffffff;
+  
+}
+.new-expense .expense-pay .payment-info{
+  width: 75%;
+}
+.new-expense .expense-pay .payment-info .form{
+  padding: 20px 10px;
+}
+.new-expense .total{
+  border-bottom: solid 2px #ECECEC;
+  height: 220px;
+  margin-bottom: 50px;
+}
+.new-expense .expense-pay .btns{
+  width: 73%;
+  text-align: right;
+}
+.new-expense .expense-pay .btns .btn-1{
+  width: 100px;
+}
+.new-expense .expense-pay .btns .btn-2{
+  width: 100px;
+  background-color: #097BEF;
+  color: #fff;
+  height: 50px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+}
+@media(max-width: 769px){
+  .invoices .payment-modal .modal-body .cards{
+    width: 80px;
+    height: 90px;
+  }
+  .invoices .payment-modal .modal-body .cards p{
+    font-size: 11px;
+  }
+  .invoices .payment-modal .modal-body .cards h6{
+    font-size: 11px;
+  }
+  .invoices .payment-modal .modal-body .payment-info .form input{
+
+  }
+  .invoices .payment-modal .modal-header h2{
+    padding-left: 190px;
+  }
+  .invoices .payment-modal .modal-body .banks {
+    height: 160px;
+  }
+}
+@media(max-width: 500px){
+  .invoices .payment-modal .modal-body .cards{
+    width: 95px;
+    margin-bottom: 10px;
+  }
+  .invoices .payment-modal .modal-body{
+    padding: 10px 20px;
+  }
+  .invoices .payment-modal .modal-body .banks{
+    height: 350px;
+  }
+  .invoices .payment-modal .modal-header h2{
+    padding-left: 35px;
+  }
+}
+@media(max-width: 1025px){
+  .new-expense .panel .btns .btn-2{
+  width: 150px;
+}
+.new-expense .panel .btns .btn-3{
+  width: 90px;
+}
+.new-expense .panel .btns .btn-1{
+  width: 90px;
+}
+.new-expense .expense-pay .payment-info{
+  width: 85%;
+}
+.new-expense .expense-pay .btns{
+  width: 83%;
+}
+}
+@media(max-width: 769px){
+  .new-expense .expense-pay .cards{
+    width: 105px;
+  }
+  .new-expense .expense-pay .payment-info{
+  width: 100%;
+}
+.new-expense .expense-pay .btns{
+  width: 100%;
+}
+}
+@media(max-width: 500px){
+  .new-expense .panel{
+    height: 170px;
+  }
+  .new-expense .panel .btns .btn-3{
+  width: 65px;
+  font-size: 12px;
+}
+.new-expense .panel .btns .btn-1{
+  width: 65px;
+  font-size: 12px;
+}
+.new-expense .panel .btns .btn-2{
+  width: 120px;
+  font-size: 12px;
+}
+.new-expense .panel .btns{
+  text-align: center;
+}
+.new-expense .expense-pay .banks{
+  height: 270px;
+  padding: 20px;
+}
+.new-expense .expense-pay .banks .cards{
+  width: 90px;
+  margin-bottom: 10px;
+}
+.contacts .panel .search-buttons .btn button{
+  cursor: pointer;
+  width: 50px;
+  height: 40px;
+  font-size: 11px;
+  margin-top: 10px;
+}
+}
+@media(max-width: 400px){
+.new-expense .expense-pay .banks{
+  height: 370px;
+}
+.new-expense .expense-pay .banks .cards{
+  width: 110px;
+}
+}
+@media(max-width: 350px){
+ .new-expense .expense-pay .banks .cards{
+  width: 90px;
+}
+}
+.transaction .panel {
+  height: 110px;
+}
+.contacts .panel .btn button{
+  border-radius: 5px;
+}
+.transaction .panel .btn button{
+  width: 160px;
+}
+.transaction .bank-option .banks{
+  padding: 30px 20px;
+  height: 190px;
+}
+.transaction .bank-option .cards{
+  width: 120px;
+  display: block;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  border: solid 1px #EAEAEA;
+  border-radius: 5px;
+ margin-right:10px;
+ height: 100px;
+}
+.transaction .bank-option .cards button{
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.transaction .bank-option .cards h6{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.transaction .bank-option .cards p{
+  color: #7F7F7F;
+  font-size: 14px;
+  margin: 0px;
+}
+.transaction .bank-option .cards a{
+  text-decoration: none;
+}
+.transaction .bank-option .active{
+  background-color: #F7FBFF;
+  border: solid 1px #097BEF;
+}
+.transaction .bank-option .active h6{
+  color: #097BEF;
+}
+.transaction .bank-option .active p{
+  color: #097BEF;
+}
+.transaction .bank-option .cards p i{
+ margin-top: 10px;
+}
+.transaction .bank-option .heading{
+}
+.transaction .bank-option .heading h6{
+ font-size: 14px;
+ font-weight: 400;
+}
+.transaction .bank-option .heading .date{
+}
+.transaction .bank-option .heading .filter{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #E1E1E1;
+ float: right;
+}
+.transaction .bank-option .heading .filter select{
+  border: none;
+  margin-left: 10px;
+}
+.transaction .bank-option .heading .filter option i{
+  margin-right: 20px;
+
+}
+.transaction .table tr td{
+  padding: 15px 10px;
+  font-size: 12px;
+  color: #000;
+}
+.transaction .table tr .amount{
+  color: #4BA141;
+}
+.transaction .table tr .expense{
+  color: #E41D40;
+}
+.transaction .addbank-modal .modal{
+  padding-top: 70px;
+}
+.transaction .modal-content{
+ width: 650px;
+}
+.transaction .addbank-modal .modal-header h2 {
+  padding-left: 0px;
+}
+.transaction .addbank-modal .modal-header{
+  display: block;
+  text-align: center;
+}
+.transaction .addbank-modal .modal-body {
+ padding: 40px 100px;
+ padding-bottom: 20px;
+}
+.transaction .addbank-modal .modal-body .bank-account .search{
+  border: none;
+}
+.transaction .addbank-modal .modal-body .bank-account h6{
+  color: #000;
+  margin: 10px 0px;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+.transaction .addbank-modal .modal-body .bank-account .manual h6{
+
+  padding-top: 80px;
+}
+.transaction .addbank-modal .modal-body .bank-account .manual input{
+  margin-top: 10px;
+}
+.transaction .addbank-modal .modal-body .bank-account .search{
+  padding-bottom: 5px;
+}
+.transaction .addbank-modal .modal-body .bank-account .search span i,input{
+  color: #949494;
+}
+.transaction .addbank-modal .modal-body .bank-account .search input{
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  width: 90%;
+}
+.transaction .addbank-modal .modal-body .bank-account .search button{
+  width: 100px;
+  padding: 12px 0px;
+  background-color: #097BEF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  float: right;
+}
+.transaction .addbank-modal .modal-body .bank-account .search button p{
+  margin-bottom: 0px;
+}
+.transaction .addbank-modal .modal-body .bank-account .manual button{
+  width: 100px;
+  padding: 12px 0px;
+  background-color: #097BEF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  float: right;
+}
+.transaction .addbank-modal .modal-body .bank-account .manual button p{
+  margin-bottom: 0px;
+}
+@media(max-width: 769px){
+  .transaction .bank-option .cards{
+    width: 110px;
+  }
+  .transaction .panel .search-buttons{
+    width: auto;
+  }
+  .transaction .panel .search-buttons .btn button{
+    width: 100px;
+  }
+  .transaction .bank-option .heading .filter{
+    float: left;
+  }
+  .transaction .bank-option .banks{
+    height: 350px;
+  }
+  .transaction .bank-option .banks .cards{
+    margin-bottom: 10px;
+  }
+}
+@media(max-width: 500px){
+  .transaction .modal-content{
+    width: 310px;
+  }
+  .transaction .addbank-modal .modal-body{
+    padding: 30px;
+  }
+  .transaction .bank-option .cards{
+    width: 100px;
+  }
+  .transaction .bank-option .banks{
+    display: block;
+    text-align: center;
+  }
+}
+@media(max-width: 380px){
+  .transaction .bank-option .cards{
+    width: auto;
+  }
+}
+@media(max-width: 330px){
+  .transaction .panel{
+    height: 170px;
+  }
+}
